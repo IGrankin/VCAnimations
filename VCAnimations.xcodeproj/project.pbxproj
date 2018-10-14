@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		6D86BD7C21727F6D0053D0A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86BD7B21727F6D0053D0A9 /* AppDelegate.swift */; };
-		6D86BD7E21727F6D0053D0A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86BD7D21727F6D0053D0A9 /* ViewController.swift */; };
 		6D86BD8121727F6D0053D0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D86BD7F21727F6D0053D0A9 /* Main.storyboard */; };
 		6D86BD8321727F720053D0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D86BD8221727F720053D0A9 /* Assets.xcassets */; };
 		6D86BD8621727F720053D0A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D86BD8421727F720053D0A9 /* LaunchScreen.storyboard */; };
+		6D86BD8E217280280053D0A9 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86BD8D217280280053D0A9 /* GreenViewController.swift */; };
+		6D86BD90217280360053D0A9 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86BD8F217280360053D0A9 /* BlueViewController.swift */; };
+		6D86BD942172867F0053D0A9 /* PresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86BD932172867F0053D0A9 /* PresentAnimationController.swift */; };
+		6D86BD972172A1B10053D0A9 /* SlideIntercationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86BD962172A1B10053D0A9 /* SlideIntercationController.swift */; };
+		6D86BD99217388CC0053D0A9 /* DismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86BD98217388CC0053D0A9 /* DismissAnimationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D86BD7821727F6D0053D0A9 /* VCAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D86BD7B21727F6D0053D0A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D86BD7D21727F6D0053D0A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D86BD8021727F6D0053D0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D86BD8221727F720053D0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D86BD8521727F720053D0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D86BD8721727F720053D0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D86BD8D217280280053D0A9 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		6D86BD8F217280360053D0A9 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		6D86BD932172867F0053D0A9 /* PresentAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAnimationController.swift; sourceTree = "<group>"; };
+		6D86BD962172A1B10053D0A9 /* SlideIntercationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideIntercationController.swift; sourceTree = "<group>"; };
+		6D86BD98217388CC0053D0A9 /* DismissAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,42 @@
 		6D86BD7A21727F6D0053D0A9 /* VCAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				6D86BD7B21727F6D0053D0A9 /* AppDelegate.swift */,
-				6D86BD7D21727F6D0053D0A9 /* ViewController.swift */,
+				6D86BD952172A18F0053D0A9 /* Intercation Controllers */,
+				6D86BD922172864D0053D0A9 /* Animation Controllers */,
+				6D86BD91217286120053D0A9 /* support files */,
 				6D86BD7F21727F6D0053D0A9 /* Main.storyboard */,
-				6D86BD8221727F720053D0A9 /* Assets.xcassets */,
-				6D86BD8421727F720053D0A9 /* LaunchScreen.storyboard */,
 				6D86BD8721727F720053D0A9 /* Info.plist */,
+				6D86BD8D217280280053D0A9 /* GreenViewController.swift */,
+				6D86BD8F217280360053D0A9 /* BlueViewController.swift */,
 			);
 			path = VCAnimations;
+			sourceTree = "<group>";
+		};
+		6D86BD91217286120053D0A9 /* support files */ = {
+			isa = PBXGroup;
+			children = (
+				6D86BD7B21727F6D0053D0A9 /* AppDelegate.swift */,
+				6D86BD8221727F720053D0A9 /* Assets.xcassets */,
+				6D86BD8421727F720053D0A9 /* LaunchScreen.storyboard */,
+			);
+			path = "support files";
+			sourceTree = "<group>";
+		};
+		6D86BD922172864D0053D0A9 /* Animation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D86BD932172867F0053D0A9 /* PresentAnimationController.swift */,
+				6D86BD98217388CC0053D0A9 /* DismissAnimationController.swift */,
+			);
+			path = "Animation Controllers";
+			sourceTree = "<group>";
+		};
+		6D86BD952172A18F0053D0A9 /* Intercation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D86BD962172A1B10053D0A9 /* SlideIntercationController.swift */,
+			);
+			path = "Intercation Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D86BD7E21727F6D0053D0A9 /* ViewController.swift in Sources */,
+				6D86BD99217388CC0053D0A9 /* DismissAnimationController.swift in Sources */,
+				6D86BD972172A1B10053D0A9 /* SlideIntercationController.swift in Sources */,
+				6D86BD942172867F0053D0A9 /* PresentAnimationController.swift in Sources */,
+				6D86BD8E217280280053D0A9 /* GreenViewController.swift in Sources */,
+				6D86BD90217280360053D0A9 /* BlueViewController.swift in Sources */,
 				6D86BD7C21727F6D0053D0A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VK395NXJ86;
 				INFOPLIST_FILE = VCAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +344,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VK395NXJ86;
 				INFOPLIST_FILE = VCAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
